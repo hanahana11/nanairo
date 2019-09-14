@@ -45,9 +45,12 @@ h1 {
 }
 
 
+/*
 header p {
     text-align: center;
+    font-family: "elemerfont";
 }
+*/
 
 .part {
     color: #663300;
@@ -55,6 +58,10 @@ header p {
     margin: 2em 0;
     background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
     background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background-image: url(img/mizutama.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .title {
@@ -152,6 +159,9 @@ header p {
     font-family: "elemerfont";
     background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
     background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background-image: url(img/mizutama.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .photo h2 {
@@ -256,6 +266,7 @@ ul{
 .ul p{
     margin: 0;
     padding: 0;
+    
 }
 
 .link1:hover{background-color: rgba(248,122,103,0.33);}
@@ -280,7 +291,7 @@ ul{
     margin-bottom: 50px;
     text-align: center;
     font-family: "elemerfont";
-
+    
 /*    background-image: url(img/mizu.jpg);*/
 }
 
@@ -321,6 +332,75 @@ ul{
     /*画像を全て重ねる*/
 }
 
+/*アニメーション*/
+
+@keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+ }
+
+@-webkit-keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+}
+
+/*各画像のアニメーションの開始時間をずらす*/
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.photo-show img:nth-of-type(2) {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+.photo-show img:nth-of-type(3) {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+.photo-show img:nth-of-type(4) {
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+
+.photo-show img:nth-of-type(5) {
+    animation-delay: 8s;
+    -webkit-animation-delay: 8sd
+}
+
+.photo-show img:nth-of-type(6) {
+    animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+
+.photo-show img:nth-of-type(7) {
+    animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+} 
+.photo-show img:nth-of-type(8) {
+    animation-delay: 14s;
+    -webkit-animation-delay: 14s;
+}
+
+/*マウスが画像に重なった際、動きを止めて四角くする*/
+
+.photo-show img {
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+.photo-show:hover img {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    border-radius: 0;
+}
 
 
 
