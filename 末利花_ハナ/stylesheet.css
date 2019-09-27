@@ -52,16 +52,20 @@ header p {
 }
 */
 
+.about {
+    color: #663300;
+    padding: 0.5em 1em;
+    background-image: url(img/mizutama.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .part {
     color: #663300;
     padding: 0.5em 1em;
     margin: 2em 0;
     background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
     background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    background-image: url(img/mizutama.JPEG);
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
 .title {
@@ -159,9 +163,6 @@ header p {
     font-family: "elemerfont";
     background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
     background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    background-image: url(img/mizutama.JPEG);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .photo h2 {
@@ -325,7 +326,6 @@ ul{
     animation: show 16s infinite;
     -webkit-animation: show 16s infinite;
     border-radius: 50%;
-    height: auto;
     max-width: 100%;
     opacity: 0;
     position: absolute;
