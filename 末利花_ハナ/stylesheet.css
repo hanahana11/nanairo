@@ -22,27 +22,13 @@ body {
 }
 
 header {
-    background-image: url(./img/haikei.png);
-    height: 450px;
+    background-image: url(./img/nanairoheader.jpg);
+    height: 300px;
     background-size: cover;
     padding-top: 150px;
 }
 
-h1 {
-    color: #020000;
-    font-size: 90px;
-     /* ↓ここをUraraに変える！↓ */
-    font-family: "elemerfont";
-    /*
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    */
-    text-align: center;
-    padding: 30px;
-    margin: 20px;
-    border-radius: 90px;
-}
+ 
 
 
 /*
@@ -55,7 +41,7 @@ header p {
 .about {
     color: #663300;
     padding: 0.5em 1em;
-    background-image: url(img/mizutama.JPEG);
+    background-image: url(img/nanaironokizunaha.JPG);
     background-size: cover;
     background-repeat: no-repeat;
 }
