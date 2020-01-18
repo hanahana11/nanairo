@@ -25,6 +25,7 @@ header {
     background-image: url(./img/nanairoheader.jpg);
     height: 300px;
     background-size: cover;
+    padding-top: 150px;
     padding-top: 500px;
 }
 
@@ -40,6 +41,7 @@ header p {
 
 .about {
     color: #663300;
+    padding: 0.5em 1em;
     padding: 15em 10em;
     background-image: url(img/nanaironokizunaha.JPG);
     background-size: cover;
@@ -65,9 +67,19 @@ header p {
 }
 
 
-.photo1 {
-    padding-top: 200px;
+.photo {
+    color: #663300;
+    background-color: white;
+    padding: 30px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-family: "elemerfont";
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
 }
+
+
+
 
 
 .part p {
