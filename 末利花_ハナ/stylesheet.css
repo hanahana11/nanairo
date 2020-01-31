@@ -14,7 +14,7 @@ body {
     padding: 0;
     font-family: "", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     /* フォントを指定する */
-    
+
 }
 @font-face {
   font-family: "elemerfont";
@@ -29,7 +29,7 @@ header {
     padding-top: 500px;
 }
 
- 
+
 
 
 /*
@@ -46,6 +46,20 @@ header p {
     background-image: url(img/nanaironokizunaha.JPG);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.photo {
+    color: #663300;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo_box {
+    margin-top: 5px;
 }
 
 .part {
@@ -65,22 +79,6 @@ header p {
     text-align: center;
     font-family: "elemerfont";
 }
-
-
-.photo {
-    color: #663300;
-    background-color: white;
-    padding: 30px;
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-family: "elemerfont";
-    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-}
-
-
-
-
 
 .part p {
     font-size: 30px;
@@ -116,7 +114,7 @@ ul{
 .ul p{
     margin: 0;
     padding: 0;
-    
+
 }
 
 .link1:hover{background-color: rgba(248,122,103,0.33);}
@@ -141,12 +139,6 @@ ul{
     margin-bottom: 50px;
     text-align: center;
     font-family: "elemerfont";
-    
+
 /*    background-image: url(img/mizu.jpg);*/
 }
-
-
-
-
-
-
