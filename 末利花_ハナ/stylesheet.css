@@ -122,6 +122,11 @@ header p {
     margin-bottom: 50px;
     text-align: center;
     font-family: "elemerfont";
+    text-shadow:
+    1px 0 0 white,
+    0 1px 0 white,
+    -1px 0 0 white,
+    0 -1px 0 white;
 }
 
 
@@ -153,6 +158,11 @@ header p {
     border-radius: 30px;
     text-align: center;
     font-family: "elemerfont";
+    text-shadow:
+    1px 0 0 white,
+    0 1px 0 white,
+    -1px 0 0 white,
+    0 -1px 0 white
 }
 
 .part div{
@@ -198,6 +208,11 @@ ul{
     margin-bottom: 50px;
     text-align: center;
     font-family: "elemerfont";
+    text-shadow:
+    1px 0 0 white,
+    0 1px 0 white,
+    -1px 0 0 white,
+    0 -1px 0 white;
     
 /*    background-image: url(img/mizu.jpg);*/
 }
